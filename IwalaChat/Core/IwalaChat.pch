@@ -1,0 +1,25 @@
+//
+//  IwalaChat.pch
+//  IwalaChat
+//
+//  Created by jinting on 2017/3/13.
+//  Copyright © 2017年 Yingmob. All rights reserved.
+//
+
+#ifndef IwalaChat_pch
+#define IwalaChat_pch
+extern int ddLogLevel;
+#import "YYKit.h"
+#import "BlocksKit+UIKit.h"
+#import "DDLog.h"
+
+
+#import "GlobalUtils.h"
+#import "AWLNavigationBarController.h"
+#import "AWLBaseViewController.h"
+#import "UIImage+YXImage.h"
+#import "HUDHelper.h"
+#import "CommonLibrary.h"
+#import "Macro.h"
+
+#endif /* IwalaChat_pch */

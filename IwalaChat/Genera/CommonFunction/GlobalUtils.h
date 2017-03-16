@@ -11,8 +11,6 @@
 @interface GlobalUtils : NSObject
 + (void)setupCore;
 + (void)clearCore;
-
-//+ (void)deliverSelector:(SEL)selector fromObject:(id)fromObj toObject:(id)toObj;
 @end
 
 #ifdef __cplusplus

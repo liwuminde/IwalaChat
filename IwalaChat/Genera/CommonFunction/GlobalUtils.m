@@ -82,28 +82,6 @@ int ddLogLevel = DDLogLevelVerbose;
 //    [MagicalRecord cleanUp];
 }
 
-//+ (void)deliverSelector:(SEL)selector fromObject:(id)fromObj toObject:(id)toObj {
-//    if (![toObj respondsToSelector:selector]) {
-//        return;
-//    }
-//    
-//    NSError *error = nil;
-//    [fromObj aspect_hookSelector:selector withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo) {
-//        NSString *prefix = @"aspects__";
-//        NSString *aspectMethodString = NSStringFromSelector(aspectInfo.originalInvocation.selector);
-//        if ([aspectMethodString hasPrefix:prefix]) {
-//            // 参考Aspect Method Swizzle的实现
-//            [aspectInfo.originalInvocation setTarget:toObj];
-//            [aspectInfo.originalInvocation setSelector:selector];
-//            [aspectInfo.originalInvocation invoke];
-//        }
-//    } error:&error];
-//    
-//    if (error) {
-//        DDLogError(@"hook error : %@", error);
-//    }
-//}
-
 #pragma mark - 文件MD5
 + (NSString*)fileMD5:(NSString*)path
 {

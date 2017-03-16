@@ -12,8 +12,6 @@ extern int ddLogLevel;
 #import "YYKit.h"
 #import "BlocksKit+UIKit.h"
 #import "DDLog.h"
-
-
 #import "GlobalUtils.h"
 #import "AWLNavigationBarController.h"
 #import "AWLBaseViewController.h"
@@ -21,5 +19,4 @@ extern int ddLogLevel;
 #import "HUDHelper.h"
 #import "CommonLibrary.h"
 #import "Macro.h"
-
 #endif /* IwalaChat_pch */

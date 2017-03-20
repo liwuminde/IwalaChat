@@ -10,6 +10,19 @@
 		AE009CD01E7A7CC60051D072 /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AE009CCB1E7A7CC60051D072 /* FileLogger.m */; };
 		AE009CD11E7A7CC60051D072 /* GlobalUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AE009CCD1E7A7CC60051D072 /* GlobalUtils.m */; };
 		AE009CD21E7A7CC60051D072 /* LogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE009CCF1E7A7CC60051D072 /* LogFormatter.m */; };
+		AE00E55B1E7B95960054C461 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E55A1E7B95960054C461 /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AE00E55D1E7B96080054C461 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E55C1E7B96080054C461 /* CoreTelephony.framework */; };
+		AE00E55F1E7B96190054C461 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E55E1E7B96190054C461 /* SystemConfiguration.framework */; };
+		AE00E5611E7B96340054C461 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E5601E7B96340054C461 /* libc++.tbd */; };
+		AE00E5631E7B96440054C461 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E5621E7B96440054C461 /* libz.tbd */; };
+		AE00E5651E7B96550054C461 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E5641E7B96550054C461 /* libsqlite3.tbd */; };
+		AE00E5671E7BC7800054C461 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E5661E7BC7800054C461 /* CoreMedia.framework */; };
+		AE00E5691E7BC7940054C461 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E5681E7BC7940054C461 /* AVFoundation.framework */; };
+		AE00E56B1E7BC7A40054C461 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E56A1E7BC7A40054C461 /* VideoToolbox.framework */; };
+		AE00E56D1E7BC7B80054C461 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E56C1E7BC7B80054C461 /* AudioToolbox.framework */; };
+		AE00E56F1E7BC9AC0054C461 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E56E1E7BC9AC0054C461 /* MobileCoreServices.framework */; };
+		AE00E5711E7BC9C90054C461 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E5701E7BC9C90054C461 /* libxml2.tbd */; };
+		AE00E5751E7BCBDF0054C461 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE00E5741E7BCBDF0054C461 /* libstdc++.6.tbd */; };
 		AE161EB61E768765000D3071 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE161EB51E768765000D3071 /* Default-568h@2x.png */; };
 		AE161EB91E7690F0000D3071 /* AWLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE161EB81E7690F0000D3071 /* AWLBaseViewController.m */; };
 		AE161FD91E769883000D3071 /* ADTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AE161ECD1E769882000D3071 /* ADTransition.m */; };
@@ -114,6 +127,22 @@
 		AE47A99B1E7680DD0001E0B5 /* YXGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE47A98B1E7680DD0001E0B5 /* YXGradientView.m */; };
 		AE47A99C1E7680DD0001E0B5 /* YXTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE47A98D1E7680DD0001E0B5 /* YXTriangleView.m */; };
 		AE47A99F1E7681B10001E0B5 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE47A99E1E7681B10001E0B5 /* TestViewController.m */; };
+		AE6DF9831E7B94DA00886F80 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AE6DF92D1E7B94DA00886F80 /* .gitignore */; };
+		AE6DF9841E7B94DA00886F80 /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF92E1E7B94DA00886F80 /* AgoraRtcEngineKit.framework */; };
+		AE6DF9851E7B94DA00886F80 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF9301E7B94DA00886F80 /* Analytics.framework */; };
+		AE6DF9861E7B94DA00886F80 /* framework说明.txt in Resources */ = {isa = PBXBuildFile; fileRef = AE6DF9311E7B94DA00886F80 /* framework说明.txt */; };
+		AE6DF9871E7B94DA00886F80 /* IMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF9321E7B94DA00886F80 /* IMCore.framework */; };
+		AE6DF9881E7B94DA00886F80 /* ImSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF9331E7B94DA00886F80 /* ImSDK.framework */; };
+		AE6DF9891E7B94DA00886F80 /* IMSDKBugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF9341E7B94DA00886F80 /* IMSDKBugly.framework */; };
+		AE6DF98A1E7B94DA00886F80 /* libagora_fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF9351E7B94DA00886F80 /* libagora_fat.a */; };
+		AE6DF98B1E7B94DA00886F80 /* libagoradep_fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF9361E7B94DA00886F80 /* libagoradep_fat.a */; };
+		AE6DF98C1E7B94DA00886F80 /* QALHttpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF9371E7B94DA00886F80 /* QALHttpSDK.framework */; };
+		AE6DF98D1E7B94DA00886F80 /* QALSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF9381E7B94DA00886F80 /* QALSDK.framework */; };
+		AE6DF98E1E7B94DA00886F80 /* libTXYDownloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF93C1E7B94DA00886F80 /* libTXYDownloader.a */; };
+		AE6DF98F1E7B94DA00886F80 /* libTXYUploader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF9411E7B94DA00886F80 /* libTXYUploader.a */; };
+		AE6DF9901E7B94DA00886F80 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = AE6DF9421E7B94DA00886F80 /* readme */; };
+		AE6DF9911E7B94DA00886F80 /* TLSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF9431E7B94DA00886F80 /* TLSSDK.framework */; };
+		AE6DF9A81E7B94DA00886F80 /* videoprp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6DF97F1E7B94DA00886F80 /* videoprp.framework */; };
 		C0A389AE561BFB1D03EC02CF /* libPods-IwalaChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4EF5D6AC76D26177823862 /* libPods-IwalaChat.a */; };
 /* End PBXBuildFile section */
 
@@ -127,6 +156,20 @@
 		AE009CCD1E7A7CC60051D072 /* GlobalUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalUtils.m; sourceTree = "<group>"; };
 		AE009CCE1E7A7CC60051D072 /* LogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogFormatter.h; sourceTree = "<group>"; };
 		AE009CCF1E7A7CC60051D072 /* LogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogFormatter.m; sourceTree = "<group>"; };
+		AE00E55A1E7B95960054C461 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		AE00E55C1E7B96080054C461 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AE00E55E1E7B96190054C461 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AE00E5601E7B96340054C461 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AE00E5621E7B96440054C461 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AE00E5641E7B96550054C461 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AE00E5661E7BC7800054C461 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AE00E5681E7BC7940054C461 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AE00E56A1E7BC7A40054C461 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		AE00E56C1E7BC7B80054C461 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AE00E56E1E7BC9AC0054C461 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AE00E5701E7BC9C90054C461 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		AE00E5721E7BC9E50054C461 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		AE00E5741E7BCBDF0054C461 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 		AE161EB51E768765000D3071 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AE161EB71E7690F0000D3071 /* AWLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWLBaseViewController.h; sourceTree = "<group>"; };
 		AE161EB81E7690F0000D3071 /* AWLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWLBaseViewController.m; sourceTree = "<group>"; };
@@ -361,6 +404,26 @@
 		AE47A98D1E7680DD0001E0B5 /* YXTriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXTriangleView.m; sourceTree = "<group>"; };
 		AE47A99D1E7681B10001E0B5 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		AE47A99E1E7681B10001E0B5 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		AE6DF92D1E7B94DA00886F80 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AE6DF92E1E7B94DA00886F80 /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
+		AE6DF92F1E7B94DA00886F80 /* agorasdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agorasdk.h; sourceTree = "<group>"; };
+		AE6DF9301E7B94DA00886F80 /* Analytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Analytics.framework; sourceTree = "<group>"; };
+		AE6DF9311E7B94DA00886F80 /* framework说明.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "framework说明.txt"; sourceTree = "<group>"; };
+		AE6DF9321E7B94DA00886F80 /* IMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IMCore.framework; sourceTree = "<group>"; };
+		AE6DF9331E7B94DA00886F80 /* ImSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImSDK.framework; sourceTree = "<group>"; };
+		AE6DF9341E7B94DA00886F80 /* IMSDKBugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IMSDKBugly.framework; sourceTree = "<group>"; };
+		AE6DF9351E7B94DA00886F80 /* libagora_fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libagora_fat.a; sourceTree = "<group>"; };
+		AE6DF9361E7B94DA00886F80 /* libagoradep_fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libagoradep_fat.a; sourceTree = "<group>"; };
+		AE6DF9371E7B94DA00886F80 /* QALHttpSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QALHttpSDK.framework; sourceTree = "<group>"; };
+		AE6DF9381E7B94DA00886F80 /* QALSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QALSDK.framework; sourceTree = "<group>"; };
+		AE6DF93B1E7B94DA00886F80 /* TXYDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXYDownloader.h; sourceTree = "<group>"; };
+		AE6DF93C1E7B94DA00886F80 /* libTXYDownloader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTXYDownloader.a; sourceTree = "<group>"; };
+		AE6DF93F1E7B94DA00886F80 /* TXYBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXYBase.h; sourceTree = "<group>"; };
+		AE6DF9401E7B94DA00886F80 /* TXYUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXYUploadManager.h; sourceTree = "<group>"; };
+		AE6DF9411E7B94DA00886F80 /* libTXYUploader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTXYUploader.a; sourceTree = "<group>"; };
+		AE6DF9421E7B94DA00886F80 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		AE6DF9431E7B94DA00886F80 /* TLSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TLSSDK.framework; sourceTree = "<group>"; };
+		AE6DF97F1E7B94DA00886F80 /* videoprp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = videoprp.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,7 +431,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE00E5751E7BCBDF0054C461 /* libstdc++.6.tbd in Frameworks */,
+				AE00E5711E7BC9C90054C461 /* libxml2.tbd in Frameworks */,
+				AE00E56F1E7BC9AC0054C461 /* MobileCoreServices.framework in Frameworks */,
+				AE00E56D1E7BC7B80054C461 /* AudioToolbox.framework in Frameworks */,
+				AE00E56B1E7BC7A40054C461 /* VideoToolbox.framework in Frameworks */,
+				AE00E5691E7BC7940054C461 /* AVFoundation.framework in Frameworks */,
+				AE00E5671E7BC7800054C461 /* CoreMedia.framework in Frameworks */,
+				AE00E5651E7B96550054C461 /* libsqlite3.tbd in Frameworks */,
+				AE00E5631E7B96440054C461 /* libz.tbd in Frameworks */,
+				AE00E5611E7B96340054C461 /* libc++.tbd in Frameworks */,
+				AE00E55F1E7B96190054C461 /* SystemConfiguration.framework in Frameworks */,
+				AE00E55D1E7B96080054C461 /* CoreTelephony.framework in Frameworks */,
+				AE00E55B1E7B95960054C461 /* UserNotifications.framework in Frameworks */,
+				AE6DF9841E7B94DA00886F80 /* AgoraRtcEngineKit.framework in Frameworks */,
+				AE6DF9891E7B94DA00886F80 /* IMSDKBugly.framework in Frameworks */,
 				C0A389AE561BFB1D03EC02CF /* libPods-IwalaChat.a in Frameworks */,
+				AE6DF98A1E7B94DA00886F80 /* libagora_fat.a in Frameworks */,
+				AE6DF9911E7B94DA00886F80 /* TLSSDK.framework in Frameworks */,
+				AE6DF98B1E7B94DA00886F80 /* libagoradep_fat.a in Frameworks */,
+				AE6DF9851E7B94DA00886F80 /* Analytics.framework in Frameworks */,
+				AE6DF98E1E7B94DA00886F80 /* libTXYDownloader.a in Frameworks */,
+				AE6DF9871E7B94DA00886F80 /* IMCore.framework in Frameworks */,
+				AE6DF9A81E7B94DA00886F80 /* videoprp.framework in Frameworks */,
+				AE6DF9881E7B94DA00886F80 /* ImSDK.framework in Frameworks */,
+				AE6DF98D1E7B94DA00886F80 /* QALSDK.framework in Frameworks */,
+				AE6DF98C1E7B94DA00886F80 /* QALHttpSDK.framework in Frameworks */,
+				AE6DF98F1E7B94DA00886F80 /* libTXYUploader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +467,20 @@
 		7579EA466D569E1588DB542B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE00E5741E7BCBDF0054C461 /* libstdc++.6.tbd */,
+				AE00E5721E7BC9E50054C461 /* libstdc++.tbd */,
+				AE00E5701E7BC9C90054C461 /* libxml2.tbd */,
+				AE00E56E1E7BC9AC0054C461 /* MobileCoreServices.framework */,
+				AE00E56C1E7BC7B80054C461 /* AudioToolbox.framework */,
+				AE00E56A1E7BC7A40054C461 /* VideoToolbox.framework */,
+				AE00E5681E7BC7940054C461 /* AVFoundation.framework */,
+				AE00E5661E7BC7800054C461 /* CoreMedia.framework */,
+				AE00E5641E7B96550054C461 /* libsqlite3.tbd */,
+				AE00E5621E7B96440054C461 /* libz.tbd */,
+				AE00E5601E7B96340054C461 /* libc++.tbd */,
+				AE00E55E1E7B96190054C461 /* SystemConfiguration.framework */,
+				AE00E55C1E7B96080054C461 /* CoreTelephony.framework */,
+				AE00E55A1E7B95960054C461 /* UserNotifications.framework */,
 				9D4EF5D6AC76D26177823862 /* libPods-IwalaChat.a */,
 			);
 			name = Frameworks;
@@ -814,8 +917,8 @@
 		AE47A9291E76750C0001E0B5 /* IwalaChat */ = {
 			isa = PBXGroup;
 			children = (
+				AE6DF92C1E7B94DA00886F80 /* Vendors */,
 				AE47A93B1E76750C0001E0B5 /* Info.plist */,
-				AE47A95D1E7675C20001E0B5 /* Venders */,
 				AE47A95E1E7675C20001E0B5 /* Sections */,
 				AE47A9601E7675C20001E0B5 /* Genera */,
 				AE47A9611E7675C20001E0B5 /* Core */,
@@ -832,13 +935,6 @@
 			);
 			name = "Supporting Files";
 			path = ..;
-			sourceTree = "<group>";
-		};
-		AE47A95D1E7675C20001E0B5 /* Venders */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Venders;
 			sourceTree = "<group>";
 		};
 		AE47A95E1E7675C20001E0B5 /* Sections */ = {
@@ -912,6 +1008,65 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		AE6DF92C1E7B94DA00886F80 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DF92D1E7B94DA00886F80 /* .gitignore */,
+				AE6DF92E1E7B94DA00886F80 /* AgoraRtcEngineKit.framework */,
+				AE6DF92F1E7B94DA00886F80 /* agorasdk.h */,
+				AE6DF9301E7B94DA00886F80 /* Analytics.framework */,
+				AE6DF9311E7B94DA00886F80 /* framework说明.txt */,
+				AE6DF9321E7B94DA00886F80 /* IMCore.framework */,
+				AE6DF9331E7B94DA00886F80 /* ImSDK.framework */,
+				AE6DF9341E7B94DA00886F80 /* IMSDKBugly.framework */,
+				AE6DF9351E7B94DA00886F80 /* libagora_fat.a */,
+				AE6DF9361E7B94DA00886F80 /* libagoradep_fat.a */,
+				AE6DF9371E7B94DA00886F80 /* QALHttpSDK.framework */,
+				AE6DF9381E7B94DA00886F80 /* QALSDK.framework */,
+				AE6DF9391E7B94DA00886F80 /* QCloudDownloadSDK */,
+				AE6DF93D1E7B94DA00886F80 /* QCloudUploadSDK */,
+				AE6DF9421E7B94DA00886F80 /* readme */,
+				AE6DF9431E7B94DA00886F80 /* TLSSDK.framework */,
+				AE6DF97F1E7B94DA00886F80 /* videoprp.framework */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		AE6DF9391E7B94DA00886F80 /* QCloudDownloadSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DF93A1E7B94DA00886F80 /* Headers */,
+				AE6DF93C1E7B94DA00886F80 /* libTXYDownloader.a */,
+			);
+			path = QCloudDownloadSDK;
+			sourceTree = "<group>";
+		};
+		AE6DF93A1E7B94DA00886F80 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DF93B1E7B94DA00886F80 /* TXYDownloader.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		AE6DF93D1E7B94DA00886F80 /* QCloudUploadSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DF93E1E7B94DA00886F80 /* Headers */,
+				AE6DF9411E7B94DA00886F80 /* libTXYUploader.a */,
+			);
+			path = QCloudUploadSDK;
+			sourceTree = "<group>";
+		};
+		AE6DF93E1E7B94DA00886F80 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AE6DF93F1E7B94DA00886F80 /* TXYBase.h */,
+				AE6DF9401E7B94DA00886F80 /* TXYUploadManager.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		EECDB8F083F987F7D1F402E2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -983,7 +1138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6DF9901E7B94DA00886F80 /* readme in Resources */,
 				AE47A9371E76750C0001E0B5 /* Assets.xcassets in Resources */,
+				AE6DF9861E7B94DA00886F80 /* framework说明.txt in Resources */,
+				AE6DF9831E7B94DA00886F80 /* .gitignore in Resources */,
 				AE161EB61E768765000D3071 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1178,6 +1336,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1227,6 +1386,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1254,6 +1414,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = RMZQ762TDJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IwalaChat/Vendors",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
 				GCC_PREFIX_HEADER = IwalaChat/Core/IwalaChat.pch;
 				INFOPLIST_FILE = IwalaChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1261,8 +1429,14 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/IwalaChat/Sections/消息/CommonLibrary/BlocksKit",
+					"$(PROJECT_DIR)/IwalaChat/Vendors",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/QCloudDownloadSDK",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/QCloudUploadSDK",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/WeChat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yingmob.ailiaoba;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingmob.coailiaoba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
@@ -1276,6 +1450,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = RMZQ762TDJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IwalaChat/Vendors",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
 				GCC_PREFIX_HEADER = IwalaChat/Core/IwalaChat.pch;
 				INFOPLIST_FILE = IwalaChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1283,8 +1465,14 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/IwalaChat/Sections/消息/CommonLibrary/BlocksKit",
+					"$(PROJECT_DIR)/IwalaChat/Vendors",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/QCloudDownloadSDK",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/QCloudUploadSDK",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/WeChat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yingmob.ailiaoba;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingmob.coailiaoba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};

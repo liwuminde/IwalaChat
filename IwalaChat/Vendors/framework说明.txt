@@ -1,0 +1,8 @@
+Analytics : 灯塔统计SDK
+xplatform : AVSDK基础库
+IMCore : IMSDK内部核心包
+ImSDK  : 即时通信SDK（封装IMCore）
+IMSDKBugly : Bugly上报
+QALSDK : 联网层sdk，实现app和后台之间的安全连接通道
+QAVSDK : 音视频核心功能包
+TLSSDK : 腾讯云TLS登录包

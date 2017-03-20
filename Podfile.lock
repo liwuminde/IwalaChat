@@ -56,6 +56,27 @@ PODS:
   - SecureUDID (1.1)
   - UICKeyChainStore (2.1.1)
   - UITableView+FDTemplateLayoutCell (1.4)
+  - UMengAnalytics (4.2.4)
+  - UMengUShare/Core (6.4.0):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.0)
+  - UMengUShare/Plugin/IDFA (6.4.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/QQ (6.4.0):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.0):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/WeChat (6.4.0):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -76,6 +97,11 @@ DEPENDENCIES:
   - SDWebImage
   - SecureUDID (= 1.1)
   - UITableView+FDTemplateLayoutCell (= 1.4)
+  - UMengAnalytics
+  - UMengUShare/Plugin/IDFA
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/Sina
+  - UMengUShare/Social/WeChat
   - YYKit (~> 1.0.2)
 
 SPEC CHECKSUMS:
@@ -97,8 +123,10 @@ SPEC CHECKSUMS:
   SecureUDID: 82a9df1f3baa7a0964600ac93a81273121775b17
   UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  UMengUShare: 83f849f356db0db9f18488cfbc2055a20b150481
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 03309f90a5f30e4f3ec1b630d4983d187acc0a7d
+PODFILE CHECKSUM: 65d3061da5fbb4a601f0e835aeff2683d0478689
 
 COCOAPODS: 1.0.1

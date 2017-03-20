@@ -25,5 +25,12 @@ target 'IwalaChat'  do
     #pod 'Bugtags'
     pod 'MWPhotoBrowser'
     #pod 'GTSDK'
+    
+    pod 'UMengAnalytics'
+    pod ‘UMengUShare/Social/WeChat'
+    pod ‘UMengUShare/Social/QQ'
+    pod ‘UMengUShare/Social/Sina'
+    pod ‘UMengUShare/Plugin/IDFA'
+    
 end
 

@@ -1418,9 +1418,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/IwalaChat/Vendors",
-					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/QQ",
-					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/UMSocialSDK",
-					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 				);
 				GCC_PREFIX_HEADER = IwalaChat/Core/IwalaChat.pch;
 				INFOPLIST_FILE = IwalaChat/Info.plist;
@@ -1428,13 +1425,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/IwalaChat/Sections/消息/CommonLibrary/BlocksKit",
 					"$(PROJECT_DIR)/IwalaChat/Vendors",
 					"$(PROJECT_DIR)/IwalaChat/Vendors/QCloudDownloadSDK",
 					"$(PROJECT_DIR)/IwalaChat/Vendors/QCloudUploadSDK",
-					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/QQ",
-					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/Sina",
-					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/WeChat",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yingmob.coailiaoba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1454,9 +1447,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/IwalaChat/Vendors",
-					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/SocialLibraries/QQ",
-					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial/UMSocialSDK",
-					"$(PROJECT_DIR)/IwalaChat/Vendors/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 				);
 				GCC_PREFIX_HEADER = IwalaChat/Core/IwalaChat.pch;
 				INFOPLIST_FILE = IwalaChat/Info.plist;

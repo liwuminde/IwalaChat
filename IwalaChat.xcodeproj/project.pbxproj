@@ -1411,8 +1411,8 @@
 			baseConfigurationReference = 19A0090E1FB1DE453BA7BCF3 /* Pods-IwalaChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Wumin (KGZC3843L4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Wumin (KGZC3843L4)";
 				DEVELOPMENT_TEAM = RMZQ762TDJ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1442,8 +1442,8 @@
 			baseConfigurationReference = A0E6251EAD4C5E0C8098DF72 /* Pods-IwalaChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZhuShiHuLian (Shanghai) culture media Co. Ltd. (RMZQ762TDJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ZhuShiHuLian (Shanghai) culture media Co. Ltd. (RMZQ762TDJ)";
 				DEVELOPMENT_TEAM = RMZQ762TDJ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1466,8 +1466,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yingmob.coailiaoba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1f7d0f4c-27e3-4266-a066-447f0ef4a5d8";
-				PROVISIONING_PROFILE_SPECIFIER = coailiaoba_dis;
+				PROVISIONING_PROFILE = "d88ce1bd-8c58-44c1-828a-34022c0f585b";
+				PROVISIONING_PROFILE_SPECIFIER = adHoc_pro;
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;

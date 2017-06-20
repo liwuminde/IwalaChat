@@ -22,6 +22,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [TestViewController new];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 @end
